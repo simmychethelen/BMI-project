@@ -11,7 +11,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 bmidict = {'Name': '', 'Age': 0, 'height': 0, 'weight': 0, 'bmi': 0,'Category':''}
 
-filepath=Path('C:\\Users\\simmy\\PycharmProjects\\python project\\bmi1.csv')
+filepath=Path('C:\\Users\\simmy\\PycharmProjects\\python project\\bmi.csv')
 
 def bmical():
     if filepath.exists():
